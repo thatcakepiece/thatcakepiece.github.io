@@ -1,0 +1,77 @@
+body {
+	background: linear-gradient(#171D27, #101116);
+}
+
+h1 {
+	color: #FFFFFF;
+	font-family: 'poppins', sans serif;
+	font-size: 5vh;
+	margin: 0;
+	transition-duration: 1s;
+	transition-timing-function: ease-in-out;
+}
+
+h1:hover {
+	transition-duration: 1s;
+	transition-timing-function: ease-in-out;
+	font-size: 5.1vh;
+}
+
+img {
+	height: 3vh;
+	opacity: 0.3;
+	margin: 0;
+	transition-duration: 1s;
+	transition-timing-function: ease-in-out;
+	user-select: none;
+}
+
+img:hover {
+	transition-duration: 1s;
+	transition-timing-function: ease-in-out;
+	opacity: 0.5;
+	height: 3.1vh;
+}
+
+a, p {
+	text-decoration: none;
+	font-family: 'poppins', sans serif;
+	font-size: 2vh;
+	color: white;
+	margin: 0;
+}
+
+.op {
+	opacity: 0.5;
+}
+
+a {
+	color: #988fff;
+	transition-duration: 1s;
+	transition-timing-function: ease-in-out;
+}
+
+p {
+user-select: none;
+}
+
+a:hover {
+	transition-duration: 0.5s;
+	transition-timing-function: ease-in-out;
+	color: #d5d1ff;
+}
+
+div {
+	position: absolute;
+	top: 30vh;
+	left: 10vw;
+	border-radius: 8px;
+	padding: 40px;
+	transition-duration: 1s;
+	transition-timing-function: ease-in-out;
+}
+
+::selection {
+background-color: #000000;
+color: #FFFFFF;
+}
