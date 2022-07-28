@@ -1,13 +1,10 @@
-@font-face {
-	font-family:"poppins";src:url("poppins.otf");}
-
 body {
 	background: linear-gradient(#171D27, #101116);
 }
 
 h1 {
 	color: #FFFFFF;
-	font-family: poppins;
+	font-family: 'poppins', sans serif;
 	font-size: 5vh;
 	margin: 0;
 	transition-duration: 1s;
